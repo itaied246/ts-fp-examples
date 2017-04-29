@@ -1,0 +1,29 @@
+{
+  "name": "ts-fp-examples",
+  "version": "1.0.0",
+  "description": "Functional programming paradigm example in Typescript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc -w",
+    "build": "tsc",
+    "start": "yarn build && node build/index.js"
+  },
+  "repository": "git+https://github.com/itaied246/ts-fp-examples.git",
+  "author": "Itai Edri <itaied246@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itaied246/ts-fp-examples/issues"
+  },
+  "homepage": "https://github.com/itaied246/ts-fp-examples#readme",
+  "dependencies": {
+    "ramda": "^0.23.0",
+    "ramda-fantasy": "^0.8.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^2.3.2",
+    "yarn": "^0.22.0"
+  },
+  "devDependencies": {
+    "@types/ramda": "^0.0.7"
+  }
+}
